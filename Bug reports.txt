@@ -1,0 +1,14 @@
+{
+   "Bug_id":"1",
+   "Priority":"Hight",
+   "Summary":"Total price in the Cart is recalculated incorrectly when user adds items from On Sale category",
+   "Steps to reproduse":
+   {
+    "1":"Select On Sale from Nav Bar"
+    "2":"Add an item to the Cart"
+    "3":"Go to the Cart Page and observe it"
+   },
+   "Expected result":"The reduce price should be displayed",
+   "Actual result":"The full price is displays"
+},
+
