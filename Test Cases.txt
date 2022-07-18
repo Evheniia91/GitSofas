@@ -1,0 +1,41 @@
+{
+   "TestCase_id":"1", 
+   "Title":"Icon Cart should be marked when user adds first product",
+   "Precondition";"Given the Cart is empty",
+   "Steps":
+   {
+     "1":"When user adds any item to the Cart",
+	 "2":"And go to the Home Page or Product Details Page"
+   },
+   "Expected result":"Then the green dot appears next to the Cart Icon"
+},
+
+{
+   "TestCase_id":"2", 
+   "Title":"User should be able to change the product quantity",
+   "Precondition";"Given user is on the Product Details Page",
+   "Steps":
+   {
+     "1":"When user clicks + or - button",
+	 "2":"And observe the Product Details Page and Cart Page"
+   },
+   "Expected result":"Then quantity should change and the correct quantity of the product is on Product Details Page and in the Cart"
+},
+
+{
+   "TestCase_id":"3", 
+   "Title":"User should be able to open the Product Details Page by clicking on Shop Now button for Hero product",
+   "Steps":
+   {
+     "1":"When user go to the Home Page",
+	 "2":"And clicks Shop now button for Hero product",
+   "Expected result":"Then Product Details Page should be opened"
+},
+
+{
+   "TestCase_id":"4", 
+   "Title":"\"No items in the Cart\” message should display when the Cart is empty",
+   "Precondition";"Given the Cart is empty",
+   "Steps":"When user go to the Cart Page and observe it",
+   "Expected result":"Then \"No items in the Cart\" message should display"
+}
