@@ -1,0 +1,62 @@
+{
+   "Bug_id":"1",
+   "Severity":"Major",
+   "Environment":"Test",
+   "Module":"Cart Page",
+   "Summary":"Total price is recalculated incorrectly when user adds items from On Sale category",
+   "Steps to reproduce":
+   {
+    "1":"Select On Sale from NavBar"
+    "2":"Add an item to the Cart"
+    "3":"Go to the Cart Page and observe it"
+   },
+   "Actual result":"The full price is displays",
+   "Expected result":"The reduce price should be displayed"
+},
+
+{
+   "Bug_id":"2",
+   "Severity":"Major",
+   "Environment":"Test",
+   "Module":"Checkout Page",
+   "Summary":"Total price does not updated after applying promo code",
+   "Steps to reproduce":
+   {
+    "1":"Add to Cart an item from category except On Sale and New Arrivals",
+    "2":"Go to the Checkout Page ",
+    "3":"Apply a valid promo code"
+   },
+   "Actual result":"The Total price does not update and Full price displays",
+   "Expected result":"The Total price should be updated"
+},
+
+{
+   "Bug_id":"3",
+   "Severity":"Major",
+   "Environment":"Test",
+   "Module":"Checkout Page",
+   "Summary":"It’s possible to complete the payment with empty Email field",
+   "Steps to reproduce":
+   {
+    "1":"Add any product to the Cart",
+    "2":"Go to Checkout page",
+    "3":"Enter all required fields except email",
+    "4":"Click Confirm order button"
+   },
+   "Actual result":"The payment completed successfully with some empty required fields",
+   "Expected result":"User should be notified that some of the required fields are empty and the payment should NOT be completed" 
+},
+
+{  "Bug_id":"4",
+   "Severity":"Minor",
+   "Environment":"Test",
+   "Module":"Home Page",
+   "Summary":"The search is case sensitive",
+   "Steps to reproduce":
+   {
+   "1":"Go to the Home Page",
+   "2":"Search for \"otis\""
+   },
+   "Actual result":"Search returned 0 results",
+   "Expected result":"User should be able to search the product in lower and upper cases and Search should return at least 1 product Otis"
+}
