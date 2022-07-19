@@ -5,7 +5,7 @@
    "Steps":
    {
      "1":"When user adds any item to the Cart",
-	 "2":"And go to the Home Page or Product Details Page"
+     "2":"And go to the Home Page or Product Details Page"
    },
    "Expected result":"Then the green dot appears next to the Cart Icon"
 },
@@ -17,7 +17,7 @@
    "Steps":
    {
      "1":"When user clicks + or - button",
-	 "2":"And observe the Product Details Page and Cart Page"
+     "2":"And observe the Product Details Page and Cart Page"
    },
    "Expected result":"Then quantity should change and the correct quantity of the product is on Product Details Page and in the Cart"
 },
@@ -28,7 +28,7 @@
    "Steps":
    {
      "1":"When user go to the Home Page",
-	 "2":"And clicks Shop now button for Hero product",
+     "2":"And clicks Shop now button for Hero product",
    "Expected result":"Then Product Details Page should be opened"
 },
 
