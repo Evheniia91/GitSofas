@@ -1,7 +1,7 @@
 {
    "TestCase_id":"1", 
    "Title":"Icon Cart should be marked when user adds first product",
-   "Precondition";"Given the Cart is empty",
+   "Precondition":"Given the Cart is empty",
    "Steps":
    {
      "1":"When user adds any item to the Cart",
@@ -13,7 +13,7 @@
 {
    "TestCase_id":"2", 
    "Title":"User should be able to change the product quantity",
-   "Precondition";"Given user is on the Product Details Page",
+   "Precondition":"Given user is on the Product Details Page",
    "Steps":
    {
      "1":"When user clicks + or - button",
@@ -35,7 +35,7 @@
 {
    "TestCase_id":"4", 
    "Title":"\"No items in the Cart\” message should display when the Cart is empty",
-   "Precondition";"Given the Cart is empty",
+   "Precondition":"Given the Cart is empty",
    "Steps":"When user go to the Cart Page and observe it",
    "Expected result":"Then \"No items in the Cart\" message should display"
 }
